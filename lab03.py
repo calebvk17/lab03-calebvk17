@@ -8,7 +8,7 @@
 
 def pig_latin(word):
 
-    if (word[0] == "a" or word[0] == "e" or word[0] == "i" or word[0] == "o" or word[0] == "u"):
+    if (word[0] == "aeiou"):
         word = word[1:] + "way"
     else:
         word = word[1:] + word[0] + "ay"
